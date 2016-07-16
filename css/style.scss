@@ -48,12 +48,17 @@ body{
 /* Header
 ------------------------------------------------------------*/
 header {
- .img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+ #MAIN_IMAGE {
+ width:100%;
+ height: 500px;
+ background-image:url(../images/top.jpg);
+ background-size:cover;
+ background-position:center center;
+ }
 
-}
+@media (max-width: 768px) {
+    height: 250px;
+ }
 }
 
 /* Contents
